@@ -1,0 +1,5 @@
+p=int(input("enter the p value="))
+n=float(input("enter the n value="))
+r=float(input("enter the r value="))
+result=(p*n*r/100)
+print("result=",result)

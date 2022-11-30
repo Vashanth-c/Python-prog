@@ -1,0 +1,5 @@
+f=open("D:\\python program\\day21\\hellocopy.txt","w")
+f.seek(10)
+f.write("python programming")
+f.flush()
+f.close()

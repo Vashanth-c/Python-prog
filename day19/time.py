@@ -1,0 +1,13 @@
+import datetime
+t=datetime.time(10,55,15,000000)
+print("time=",t)
+print("min=",datetime.time.min)
+print("max=",datetime.time.max)
+print("resolution=",datetime.time.resolution)
+print("hour=",t.hour)
+print("minute=",t.minute)
+print("second=",t.second)
+print("microsecond=",t.microsecond)
+print("replace=",t.replace(hour=13,minute=12))
+print("isoformat=",t.isoformat())
+print("str=",t.__str__())

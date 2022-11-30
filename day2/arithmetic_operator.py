@@ -1,0 +1,10 @@
+a=int(input("enter a= "))
+b=int(input("enter b= "))
+c=a+b
+print("a+b=",(a+b))
+print("a-b=",(a-b))
+print("a*b=",(a*b))
+print("a**b=",(a**b))
+print("a\b=",(a/b))
+print("a\\b=",(a//b))
+print("a%b=",(a%b))

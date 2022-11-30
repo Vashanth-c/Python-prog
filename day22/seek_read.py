@@ -1,0 +1,5 @@
+f=open("D:\\python program\\day21\\Hello.txt","r")
+f.seek(8)
+data=f.read()
+print(data)
+f.close()
